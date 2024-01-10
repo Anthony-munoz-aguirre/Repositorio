@@ -1,0 +1,26 @@
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    background-color: rgb(162, 104, 255);
+    border-bottom: none;
+
+}
+
+.male{
+    background-image: url(https://c.wallhere.com/photos/f8/de/1920x1080_px_artwork_Campo_Santo_Firewatch_landscape_minimalism_nature_video_games-792509.jpg!d);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100dvw;
+    height: 100dvh;
+}
+.female{
+    background-image: url(https://s3.amazonaws.com/rtvc-assets-senalcolombia.gov.co/s3fs-public/field/image/paisaje-ocaso-atardecer-mochilero-viaje-viajero-ilustracion-wallpaper-fondo-pantalla-senal-colombia-elver-mora-1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100dvw;
+    height: 100dvh;
+}

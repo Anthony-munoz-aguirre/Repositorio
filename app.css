@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20220813/pngtree-dark-purple-background-image_1442036.jpg);
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-family: 'Teko', sans-serif;
+  }
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #100721;
+    padding: 30px 30px 30px 30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.534);
+    border-radius: 30px;
+    color: #ffffff;
+    
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  gap: 10px;
+}
+.container2{
+    flex: 0 0 120px;
+    border-radius: 0.5rem;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: 1px 5px 15px #1e0e3e;
+    position: relative;
+    overflow: hidden;
+
+    &:nth-of-type(1) {
+      background: url("https://i.pinimg.com/originals/ee/fd/cf/eefdcf8f23c277bfac155152c6ab3a20.jpg")
+        no-repeat 50% / cover;
+    }
+    &:nth-of-type(2) {
+      background: url("https://img.freepik.com/free-vector/space-login-landing-page-template_23-2148260289.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703203200&semt=ais")
+        no-repeat 50% / cover;
+    }
+    &:nth-of-type(3) {
+      background: url("https://miro.medium.com/v2/resize:fit:1080/1*_5Ij_fmyPk0c-X2OVbOUxA.jpeg")
+        no-repeat 50% / cover;
+    }
+    &:nth-of-type(4) {
+      background: url("https://cdn.europosters.eu/image/750/canvas-print-harry-potter-hogwarts-full-moon-i149376.jpg")
+        no-repeat 50% / cover;
+    }
+    &:nth-of-type(5) {
+      background: url("https://img.maspormas.com/2015/08/3-9ahorcado.jpg")
+        no-repeat 50% / cover;
+    }
+
+    .content {
+      font-size: 1.5rem;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      opacity: 0;
+      flex-direction: column;
+      height: 100%;
+      justify-content: flex-end;
+      background: rgb(2, 2, 46);
+      background: linear-gradient(
+        0deg,
+        rgba(2, 2, 46, 0.6755077030812324) 0%,
+        rgba(255, 255, 255, 0) 100%
+      );
+      transform: translatey(100%);
+      transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+      visibility: hidden;
+
+      span {
+        display: block;
+        margin-top: 5px;
+        font-size: 1.2rem;
+      }
+    }
+
+    &:hover {
+      flex: 0 0 250px;
+      box-shadow: 1px 3px 15px #7645d8;
+      transform: translatey(-30px);
+    }
+
+    &:hover .content {
+      opacity: 1;
+      transform: translatey(0%);
+      visibility: visible;
+    }
+  }
+
+
+

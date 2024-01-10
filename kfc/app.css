@@ -1,0 +1,30 @@
+.theme-dark {
+    background-color: rgb(39, 36, 36);
+}
+
+.theme-dark .card {
+    background-color: rgb(174, 58, 58);
+    color: white;
+}
+
+.theme-dark .btn {
+    background-color: rgb(39, 36, 36);
+}
+
+.theme-dark .select {
+    background-color: rgb(174, 58, 58);
+    color: white;
+}
+
+.theme-dark .btn:hover {
+    background-color: white;
+    color: rgb(39, 36, 36);
+}
+
+.theme-light {
+    background-color: rgba(247, 245, 244, 255);
+}
+
+.theme-free {
+    background-color: antiquewhite;
+}

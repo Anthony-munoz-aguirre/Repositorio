@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+body{
+    background-image: url(https://cdn.magicawakened.com/app/uploads/2023/04/18143024/WBG_Mystical_Wallpapers_Hogwarts_16x9_03_LA-1200x900.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Finger Paint', cursive;
+    height: 100%;
+}
+
+h2{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    font-size: 50px;
+}
+h3{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-size: 40px;
+}
+.cualidades1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.cualidades2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.cualidades3{
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;  
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.img img{
+    height: 250px;
+    width: 250px;
+    
+}
+p{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+
+
+.cambioColor{
+    background: black;
+    opacity: 0.5;
+
+}
